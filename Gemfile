@@ -9,6 +9,8 @@ gem 'unicorn'
 gem 'sprockets'
 gem 'sprockets-es6', require: 'sprockets/es6'
 
+gem 'devise', '~> 3.4'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'byebug'
